@@ -9,13 +9,20 @@
 }
 
 @layer components {
-    .nav {
-    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-    }
+    
 }
 
 @layer utilities {
-    .btn {
-    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    .pages {
+        @apply flex flex-row text-GrayMynor4 text-lg p-2 gap-10 justify-center items-center;
+    }
+    .pages li {
+        @apply p-2 hover:text-RedMynor hover:scale-110 transform transition-transform;
+    }
+    .pagesHover {
+        @apply ;
+    }
+    .navbar {
+        @apply flex justify-between items-center p-4 list-none sticky z-20 w-[80%];
     }
 }
