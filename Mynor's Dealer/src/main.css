@@ -9,7 +9,9 @@
 }
 
 @layer components {
-    
+    /* .mySwiper{
+        @apply 
+    } */
 }
 
 @layer utilities {
@@ -24,5 +26,11 @@
     }
     .navbar {
         @apply flex justify-between items-center p-4 list-none sticky z-20 w-[80%];
+    }
+    .SliderImg {
+        @apply flex justify-end items-end;
+    }
+    .SliderImg img {
+        @apply w-[50vw] h-[25vw] p-1;
     }
 }

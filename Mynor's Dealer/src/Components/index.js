@@ -1,5 +1,7 @@
 import Nav from "./Nav";
+import Slider from "./Slider"
 
 export  {
-    Nav
+    Nav,
+    Slider
 };
