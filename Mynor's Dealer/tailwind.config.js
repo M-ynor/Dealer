@@ -19,6 +19,9 @@ export default {
         "GrayMynor4": "#666872",
       }
   },
-  plugins: [],
+  plugins: [
+    /* eslint-env node */
+    require('tailwind-scrollbar'),
+  ],
 }
 

@@ -30,7 +30,49 @@
     .SliderImg {
         @apply flex justify-end items-end;
     }
-    .SliderImg img {
-        @apply w-[50vw] h-[25vw] p-1;
+    .Car1  {
+        @apply w-[45vw] h-[25vw] p-1 z-50;
     }
+    .Car2  {
+        @apply w-[50vw] h-[35vw] p-1 z-50;
+    }
+    .Car3  {
+        @apply w-[45vw] h-[33vw] p-1 z-50;
+    }
+    .Car1Txt {
+        @apply text-opacity-20 text-GrayMynor4 text-[18rem] font-bold absolute z-0 pb-[13vw] pr-[15vw];
+    }
+    .Car2Txt {
+        @apply text-opacity-20 text-GrayMynor4 text-[18rem] font-bold absolute z-0 pb-[13vw] pr-[15vw];
+    }
+    .Car3Txt {
+        @apply text-opacity-20 text-GrayMynor4 text-[18rem] font-bold absolute z-0 pb-[13vw] pr-[15vw];
+    }
+    
+
 }
+
+
+/* scroll */
+
+/* Estilo para el scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Estilo para la pista (background) del scrollbar */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Estilo para la barra (thumb) del scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #324ac3;
+}
+
+/* Estilo para la barra (thumb) del scrollbar cuando se pasa el mouse por encima */
+::-webkit-scrollbar-thumb:hover {
+    background: #e4353a;
+}
+
+/* scroll end  */
