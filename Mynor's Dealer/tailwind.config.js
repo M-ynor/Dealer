@@ -1,7 +1,6 @@
 
 /* eslint-env node */
 const { nextui } = require("@nextui-org/react");
-const { Scroll } = require("tailwind-scrollbar");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -17,18 +16,19 @@ export default {
     },
     darkMode: "class",
     colors: {
-      "WhiteMynor": "#FFFFFE",
+      "White": "#fffffe",
+      "WhiteMynor": "#f8f8f8",
       "BlueMynor": "#100E34",
       "RedMynor": "#a2001d",
-      "GrayMynor1": "#F8F8F8",
+      "GrayMynor1": "#d3d5e0",
       "GrayMynor2": "#EAEBF0",
-      "GrayMynor3": "#ABF1BA",
+      "GrayMynor3": "#afb1ba",
       "GrayMynor4": "#666872",
     }
   },
   plugins: [
     nextui(),
-    Scroll()
+    require('tailwind-scrollbar')
   ],
 }
 

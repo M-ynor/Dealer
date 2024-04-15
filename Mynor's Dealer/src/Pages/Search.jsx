@@ -1,7 +1,9 @@
-
+import { Filter } from "../Components/index";
 const Search = () => {
     return (
-        <div>Search</div>
+        <div>
+            <Filter />
+        </div>
     )
 }
 

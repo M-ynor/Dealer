@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-    @apply m-0 bg-WhiteMynor;
+    @apply m-0 bg-White;
     }
 }
 
@@ -15,21 +15,22 @@
 }
 
 @layer utilities {
+    .TextFilter {
+        @apply w-[10rem] font-poppins font-medium; 
+    }
     .pages {
         @apply flex flex-row text-GrayMynor4 text-lg p-2 gap-10 justify-center items-center;
     }
     .pages li {
         @apply p-2 hover:text-RedMynor hover:scale-110 transform transition-transform;
     }
-    .pagesHover {
-        @apply ;
-    }
     .navbar {
-        @apply flex justify-between items-center p-4 list-none sticky z-20 w-[80%];
+        @apply mt-0 flex justify-between items-center p-4 list-none z-50 w-[80%];
     }
     .SliderImg {
         @apply flex justify-end items-end;
     }
+    /* cars slider */
     .Car1  {
         @apply w-[45vw] h-[25vw] p-1 z-50;
     }
@@ -48,8 +49,11 @@
     .Car3Txt {
         @apply text-opacity-20 text-GrayMynor4 text-[18rem] font-bold absolute z-0 pb-[13vw] pr-[15vw];
     }
+    /* cars slider finish */
+    .LineHeader {
+        @apply w-[20vw] h-[0.1rem] bg-GrayMynor4 opacity-30 mt-3;
+    }
     
-
 }
 
 
@@ -62,17 +66,17 @@
 
 /* Estilo para la pista (background) del scrollbar */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #FFFFFE;
 }
 
 /* Estilo para la barra (thumb) del scrollbar */
 ::-webkit-scrollbar-thumb {
-    background: #324ac3;
+    background: #100E34;
 }
 
 /* Estilo para la barra (thumb) del scrollbar cuando se pasa el mouse por encima */
 ::-webkit-scrollbar-thumb:hover {
-    background: #e4353a;
+    background: #a2001d;
 }
 
 /* scroll end  */

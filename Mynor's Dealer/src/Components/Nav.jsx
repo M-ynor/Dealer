@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return (
         <>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center top-0 z-50 sticky bg-WhiteMynor">
                 <nav className="navbar">
                     <div className="">
                         {/* Nav's left side */}
